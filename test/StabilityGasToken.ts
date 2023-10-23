@@ -1,10 +1,5 @@
-import {
-  time,
-  loadFixture,
-} from "@nomicfoundation/hardhat-toolbox-viem/network-helpers";
 import { expect } from "chai";
 import hre from "hardhat";
-import { getAddress, parseGwei } from "viem";
 
 describe("StabilityGasToken", function () {
   const MEANINGLESS_ADDRESS = "0x55900d17057534d097f5b0dd538105f8f088af82";
